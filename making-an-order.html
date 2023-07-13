@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Мария Архипова">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/personal account/container-info.css">
+    <link rel="stylesheet" href="styles/making-an-order/main.css">
+    <title>Dr. Jart+ Оформление заказа</title>
+</head>
+<body class="body">
+
+    <div class="preloader">
+        <div class="sk-chase">
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+        </div>
+    </div>
+
+    <nav class="nav nav_font nav_border">
+        <span class="nav_bg_inactive"></span>
+        <div class="container">
+            <div class="row nav__line">
+                <div class="col-lg-5 col-md-4 col-sm-6 col-8 nav__logo">
+                    <p class="nav_font-logo">Dr. Jart+</p>
+                </div>
+                <div class="col-4 burger"><span></span></div>
+                <div class="col-lg-7 col-md-8 nav__list flex">
+                    <ul class="nav-ul flex">
+                        <li class="nav-ul__li"><a href="index.html#catalog" class="nav_font">Каталог</a></li>
+                        <li class="nav-ul__li"><a href="index.html#sale" class="nav_font">Акции</a></li>
+                    </ul>
+                    <a id="account-link" class="nav_font" href="personal-account.html">Мой профиль</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main">
+        <div class="container">
+            <div class="row">
+                <h1 class="col-12 main__heading main__heading_font">Оформление заказа</h1>
+                <div class="col-12 making-order making-order_bg flex">
+
+                    <div class="making-order__left">
+                        <div class="making-order__block-link flex">
+                            <a class="making-order__block-link_font making-order__block-link_font_active" href="#">адрес и способ доставки</a>
+                            <a class="making-order__block-link_font" href="#">получатель</a>
+                            <a class="making-order__block-link_font" href="#">оплата</a>
+                        </div>
+                        <div class="making-order__list-orders">
+                            <p class="making-order__list-orders_font">ваш заказ/2 товара</p>
+                            <div class="making-order__window-orders">
+                                <div class="making-order__list-orders_width flex">
+                                    <div class="making-order__image-container">
+                                        <img class="making-order__image" src="images/landing page/section-sale/card-1-image.png" alt="image">
+                                    </div>
+                                    <div class="making-order__image-container">
+                                        <img class="making-order__image" src="images/landing page/section-sale/card-1-image.png" alt="image">
+                                    </div>
+                                    <div class="making-order__image-container">
+                                        <img class="making-order__image" src="images/landing page/section-sale/card-1-image.png" alt="image">
+                                    </div>
+                                    <div class="making-order__image-container">
+                                        <img class="making-order__image" src="images/landing page/section-sale/card-1-image.png" alt="image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form id="making-order-first" class="making-order__form" action="#" method="post" enctype="multipart/form-data">
+                        <div class="making-order__input-block flex">
+                            <p class="making-order__form_font">населенный пункт</p>
+                            <div class="coming-soon">dfdsfd</div>
+                        </div>
+                        <div class="making-order__input-block flex">
+                            <p class="making-order__form_font">способ доставки</p>
+                            <div class="coming-soon">dfdsfd</div>
+                        </div>
+                        <div class="making-order__input-block flex">
+                            <p class="making-order__form_font">дата и время доставки</p>
+                            <div class="coming-soon">dfdsfd</div>
+                        </div>
+                        <div class="making-order__input-block flex">
+                            <p class="making-order__form_font">адрес доставки</p>
+                            <div class="coming-soon">dfdsfd</div>
+                        </div>
+                        <button class="making-order__button making-order__button_font" type="submit">Перейти к получателю</button>
+                    </form>
+
+                    <form id="making-order-second" class="making-order__form" action="#" method="post" enctype="multipart/form-data">
+                        <div class="making-order__input-block flex">
+                            <p class="making-order__form_font">населенный пункт</p>
+                            <div class="coming-soon">dfdsfd</div>
+                        </div>
+                        <div class="making-order__input-block flex">
+                            <p class="making-order__form_font">способ доставки</p>
+                            <div class="coming-soon">dfdsfd</div>
+                        </div>
+                        <div class="making-order__input-block flex">
+                            <p class="making-order__form_font">адрес пункта выдачи</p>
+                            <div class="coming-soon">dfdsfd</div>
+                        </div>
+                        <button class="making-order__button making-order__button_font" type="submit">Перейти к получателю</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/burger.js"></script>
+    <script src="js/loading.js"></script>
+    <script src="js/making-an-order/cardBlockSize.js"></script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Мария Архипова">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/administrator/container-admin.css">
+    <link rel="stylesheet" href="styles/administrator/nav-order.css">
+    <link rel="stylesheet" href="styles/administrator/admin-grid.css">
+    <link rel="icon" href="images/favicon.svg">
+    <title>Dr. Jart+ Администратор</title>
+</head>
+<body class="body">
+
+    <div class="preloader">
+        <div class="sk-chase">
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+        </div>
+    </div>
+
+    <nav class="nav nav_font nav_border">
+        <span class="nav_bg_inactive"></span>
+        <div class="container">
+            <div class="row nav__line">
+                <div class="col-lg-5 col-md-4 col-sm-6 col-8 nav__logo">
+                    <p class="nav_font-logo">Dr. Jart+</p>
+                </div>
+                <div class="col-4 burger"><span></span></div>
+                <div class="col-lg-7 col-md-8 nav__list nav__list-admin flex">
+                    <p id="account-link" class="nav_font nav_under">Мой профиль</p>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main">
+        <div class="container">
+            <div class="row">
+                <h1 class="col-12 main__heading main__heading_font">Администратор</h1>
+                <form class="col-12 main__container main__container_bg" action="#" method="post" enctype="multipart/form-data">
+
+                    <nav class="nav-admin flex">
+                        <div class="nav-admin__mobile">
+                            <p class="nav-admin__mobile-text nav-admin_li nav-admin_li_under">Заказы</p>
+                            <svg class="nav-admin__mobile-arrow" version="1.1" width="20" height="20" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 21 12" style="enable-background:new 0 0 21 12;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:var(--text-color);}
+</style>
+<path class="st0" d="M0.6,0.6c0.8-0.8,2-0.8,2.8,0l6.7,6.6l6.7-6.6c0.8-0.8,2.1-0.8,2.8,0c0.8,0.8,0.8,2.1,0,2.8l-8.1,8
+	c-0.8,0.8-2,0.8-2.8,0l-8.1-8C-0.1,2.7-0.1,1.4,0.6,0.6z"/>
+                            </svg>
+                        </div>
+                        <ul class="nav-admin__ul">
+                            <li class="nav-admin_li">Товары</li>
+                            <li class="nav-admin_li">Наличие</li>
+                            <li class="nav-admin_li">Пользователи</li>
+                            <li class="nav-admin_li nav-admin_li_under">Заказы</li>
+                        </ul>
+                    </nav>
+
+                    <div class="nav-order flex">
+                        <div class="nav-order__choose-block">
+                            <div class="nav-order__arrow-block flex">
+                                <p class="nav-order__arrow-block_font">Фильтрация</p>
+                                <svg class="nav-order__arrow-block_arrow" version="1.1" width="25" height="auto" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 21 12" style="enable-background:new 0 0 21 12;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:var(--accent-color);}
+</style>
+<path class="st0" d="M0.6,0.6c0.8-0.8,2-0.8,2.8,0l6.7,6.6l6.7-6.6c0.8-0.8,2.1-0.8,2.8,0c0.8,0.8,0.8,2.1,0,2.8l-8.1,8
+	c-0.8,0.8-2,0.8-2.8,0l-8.1-8C-0.1,2.7-0.1,1.4,0.6,0.6z"/>
+                                </svg>
+                            </div>
+                            <p class="nav-order_font-count">Всего заказов: <span id="countOrder">168</span></p>
+                        </div>
+                        <div class="nav-order__form-container flex">
+                            <div class="nav-order__form-card">
+                                <p class="nav-order__form-card_margin nav-order__form-card_font">ID заказа</p>
+                                <select class="nav-order__select nav-order__select_font" name="idOrder">
+                                    <option value="one">Первый</option>
+                                    <option value="two">Второй</option>
+                                    <option value="three">Третий</option>
+                                </select>
+                            </div>
+                            <div class="nav-order__form-card">
+                                <p class="nav-order__form-card_margin nav-order__form-card_font">Наименование</p>
+                                <select class="nav-order__select nav-order__select_font" name="idOrder1">
+                                    <option value="one">Первый</option>
+                                    <option value="two">Второй</option>
+                                    <option value="three">Третий</option>
+                                </select>
+                            </div>
+                            <div class="nav-order__form-card">
+                                <p class="nav-order__form-card_margin nav-order__form-card_font">Заказчик</p>
+                                <select class="nav-order__select nav-order__select_font" name="idOrder2">
+                                    <option value="one">Первый</option>
+                                    <option value="two">Второй</option>
+                                    <option value="three">Третий</option>
+                                </select>
+                            </div>
+                            <div class="nav-order__form-card">
+                                <p class="nav-order__form-card_margin nav-order__form-card_font">Статус</p>
+                                <select class="nav-order__select nav-order__select_font" name="idOrder3">
+                                    <option value="one">Первый</option>
+                                    <option value="two">Второй</option>
+                                    <option value="three">Третий</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button class="nav-order__button nav-order__button_font">Поиск</button>
+                    </div>
+
+                    <div class="admin-grid__window">
+                        <div class="admin-grid_full-width flex">
+
+                            <div class="admin-grid_border admin-grid__text admin-grid_bold-font">ID</div>
+                            <div class="admin-grid_border admin-grid__text admin-grid_bold-font">Статус</div>
+                            <div class="admin-grid_border admin-grid__text admin-grid_bold-font">Наименование</div>
+                            <div class="admin-grid_border admin-grid__text admin-grid_bold-font">Заказчик</div>
+                            <div class="admin-grid_border admin-grid__text admin-grid_bold-font">Дата заказа</div>
+                            <div class="admin-grid_border admin-grid__text admin-grid_bold-font">Цена</div>
+
+                            <div class="admin-grid_border admin-grid__text">22</div>
+                            <div class="admin-grid_border admin-grid__text admin-grid__text-status">Новый</div>
+                            <div class="admin-grid_border admin-grid__text">Эссенция увлажняющая</div>
+                            <div class="admin-grid_border admin-grid__text">petrova@mail.ru</div>
+                            <div class="admin-grid_border admin-grid__text">29-04-2023</div>
+                            <div class="admin-grid_border admin-grid__text">1 590 ₽</div>
+
+                            <div class="admin-grid_border admin-grid__text">15</div>
+                            <div class="admin-grid_border admin-grid__text admin-grid__text-status">Оплачен</div>
+                            <div class="admin-grid_border admin-grid__text">Пенка для очищения</div>
+                            <div class="admin-grid_border admin-grid__text">vasina35@mail.ru</div>
+                            <div class="admin-grid_border admin-grid__text">28-04-2023</div>
+                            <div class="admin-grid_border admin-grid__text">520 ₽</div>
+
+                            <div class="admin-grid_border admin-grid__text">41</div>
+                            <div class="admin-grid_border admin-grid__text admin-grid__text-status">Передан в доставку</div>
+                            <div class="admin-grid_border admin-grid__text">Пенка для очищения</div>
+                            <div class="admin-grid_border admin-grid__text">vasina35@mail.ru</div>
+                            <div class="admin-grid_border admin-grid__text">28-04-2023</div>
+                            <div class="admin-grid_border admin-grid__text">520 ₽</div>
+
+                            <div class="admin-grid_border admin-grid__text">98</div>
+                            <div class="admin-grid_border admin-grid__text admin-grid__text-status">Завершён</div>
+                            <div class="admin-grid_border admin-grid__text">Пенка для очищения</div>
+                            <div class="admin-grid_border admin-grid__text">vasina35@mail.ru</div>
+                            <div class="admin-grid_border admin-grid__text">28-04-2023</div>
+                            <div class="admin-grid_border admin-grid__text">520 ₽</div>
+
+                        </div>
+                    </div>
+                    
+                    <div class="admin-down flex">
+                        <a href="#" class="admin-down__text">Страница <span class="admin-down__text" id="selected-page">1</span>/<span class="admin-down__text" id="max-page">45</span> ></a>
+                        <a href="#" class="admin-down__text admin-down_under">Скачать отчёт</a>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/administrator/script.js"></script>
+    <script src="js/loading.js"></script>
+</body>
+</html>

@@ -1,0 +1,207 @@
+/*Основа и левый блок*/
+
+.body {
+    background-color: rgba(146, 154, 162, 0.13);
+}
+
+.main {
+    margin-bottom: 100px;
+}
+
+.making-order {
+    border-radius: 10px;
+    padding: 40px 35px;
+    justify-content: space-between;
+}
+
+.making-order_bg {
+    background-color: #fff;
+}
+
+.making-order__left {
+    width: 28%;
+}
+
+.making-order__block-link {
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid var(--text-color);
+    border-radius: 10px;
+    padding: 40px 20px;
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+.making-order__block-link_font {
+    font-family: 'Rubik-Bold', sans-serif;
+    color: var(--text-color);
+    font-size: 22px;
+    letter-spacing: 0.07em;
+}
+.making-order__block-link_font:hover {
+    color: var(--accent-color);
+}
+
+.making-order__block-link_font_active {
+    text-decoration: underline;
+}
+
+.making-order__list-orders {
+    padding-left: 30px;
+}
+
+.making-order__list-orders_font {
+    font-family: 'Rubik-Medium';
+    font-weight: 900;
+    color: #23170bbd;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+}
+
+.making-order__window-orders {
+    width: 100%;
+    overflow: scroll;
+}
+
+.making-order__list-orders_width {
+    justify-content: space-between;
+}
+
+.making-order__image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media (max-width: 1200px) {
+
+    .making-order__left {
+        width: 36%;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .making-order__block-link {
+        display: none;
+    }
+
+    .making-order__left {
+        width: 36%;
+    }
+
+    .making-order {
+        padding: 60px 40px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .making-order__list-orders {
+        padding-left: 0;
+    }
+
+    .making-order__left {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .making-order__list-orders_width {
+        height: 160px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .making-order__list-orders_width {
+        height: 100px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .making-order__list-orders_width {
+        height: 100px;
+    }
+
+}
+
+/*Правый блок*/
+
+.making-order__form {
+    width: 42%;
+}
+
+.making-order__input-block {
+    justify-content: space-between;
+    margin-bottom: 80px;
+    align-items: center;
+}
+
+.making-order__form_font {
+    font-family: 'Rubik-Bold', sans-serif;
+    font-size: 24px;
+    width: 50%;
+}
+
+.making-order__button {
+    margin-top: 20px;
+    width: 66%;
+    margin-left: 34%;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.making-order__button_font {
+    color: #fff;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-size: 18px;
+}
+
+@media (max-width: 1400px) {
+
+    .making-order__form {
+        width: 48%;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .making-order__form {
+        width: 50%;
+    }
+
+    .making-order__button {
+        width: 70%;
+        margin-left: 30%;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .making-order__form {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .making-order__form_font {
+        font-family: 'Rubik-Bold', sans-serif;
+        font-size: 20px;
+        width: 50%;
+    }
+
+    .making-order__button {
+        width: 100%;
+        margin-left: 0;
+    }
+
+}

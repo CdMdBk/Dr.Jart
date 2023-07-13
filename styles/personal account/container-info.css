@@ -1,0 +1,43 @@
+.body {
+    background-color: rgba(146, 154, 162, 0.13);
+}
+
+.main {
+    margin-top: 160px;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+}
+
+.main__container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px 60px;
+    margin-bottom: 100px;
+}
+
+.main_personal-name-font {
+    font-family: 'Rubik-Medium';
+    letter-spacing: 0.05em;
+    margin-bottom: 60px;
+}
+
+.main__block-info {
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+
+    .main {
+        margin-top: 140px;
+    }
+
+    .main_personal-name-font {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .main__container {
+        padding: 40px calc(var(--bs-gutter-x) / 2);
+    }
+
+}

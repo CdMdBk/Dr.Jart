@@ -1,0 +1,10 @@
+.sale {
+    padding-bottom: 80px;
+}
+
+.sale_bg {
+    background-image: url(../../images/landing\ page/section-sale/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

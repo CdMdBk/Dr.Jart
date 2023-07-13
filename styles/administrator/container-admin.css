@@ -1,0 +1,122 @@
+.body {
+    background-color: rgba(146, 154, 162, 0.13);
+}
+
+.main {
+    margin-top: 140px;
+    margin-bottom: 100px;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+}
+
+.main__container {
+    padding: 40px 60px;
+}
+
+.main__container_bg {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.nav-admin {
+    position: relative;
+    align-items: center;
+    width: 60%;
+    margin-left: auto;
+    margin-bottom: 60px;
+}
+
+.nav-admin__mobile {
+    display: none;
+    margin-left: auto;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-admin__mobile-text {
+    margin-right: 10px;
+}
+
+.nav-admin__mobile-arrow {
+    rotate: 0deg;
+    transition: var(--time);
+}
+
+.nav-admin__mobile-arrow_active {
+    rotate: 180deg;
+    transition: var(--time);
+}
+
+.nav-admin__ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.nav-admin_li {
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.nav-admin_li_under {
+    text-decoration: underline;
+}
+
+.admin-down {
+    justify-content: space-between;
+}
+
+.admin-down__text:hover {
+    text-decoration: underline;
+    color: var(--text-color);
+}
+
+.admin-down_under {
+    text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+
+    .nav-admin__ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        background-color: rgba(146, 154, 162);
+        border-radius: 10px;
+        top: 30px;
+        right: 0;
+        width: 60%;
+        padding: 10px;
+        height: 200px;
+        z-index: 3;
+    }
+    
+    .nav-admin__ul_active {
+    display: flex;
+    }
+
+    .nav-admin__mobile_active {
+        display: flex;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .nav-admin__ul {
+        width: 100%;
+        height: 200px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .main__container {
+        padding: 30px 20px;
+    }
+
+}

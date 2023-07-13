@@ -1,0 +1,141 @@
+.header {
+    padding: 100px 0;
+}
+
+.header_bg {
+    background-image: url(../../images/landing\ page/section-register/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header__container {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 900px;
+    padding: 25px 40px 80px;
+}
+
+.header__arrow-left {
+    margin-bottom: 20px;
+}
+
+.header__form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.header__heading {
+    margin-bottom: 40px;
+}
+
+.header__heading_font {
+    font-family: 'Rubik-Medium', sans-serif;
+    text-align: center;
+}
+
+.header__input-container {
+    background-color: #acaeb143;
+    margin-bottom: 30px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.header__input {
+    background-color: #acaeb100;
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.header__input_font {
+    color: #7E868E;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+
+.header__input-checkbox {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.header__input-checkbox_font {
+    color: #324002;
+}
+
+.header__input-checkbox_margin-right {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.header__button {
+    background-color: #324002;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px 20px;
+    cursor: pointer;
+}
+
+.header__button_font {
+    color: #fff;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+}
+
+@media (max-width: 1400px) {
+
+    .header__container {
+        width: 700px;
+    }
+
+    .header__form {
+        width: 450px;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+    .header__container {
+        width: 650px;
+    }
+
+    .header__form {
+        width: 400px;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .header__container {
+        width: 600px;
+    }
+
+    .header__form {
+        width: 350px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .header__container {
+        width: 550px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .header__container {
+        width: 98%;
+    }
+
+    .header__form {
+        width: 90%;
+    }
+
+}

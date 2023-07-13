@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Мария Архипова">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/registration/registration.css">
+    <title>Dr. Jart+ Регистрация</title>
+</head>
+<body>
+
+    <div class="preloader">
+        <div class="sk-chase">
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+            <div class="sk-chase-dot"></div>
+        </div>
+    </div>
+    
+    <header class="header header_bg">
+        <div class="div header__container">
+            <a href="index.html#authorization"><img class="header__arrow-left" src="images/landing page/arrow-left.svg" alt="icon"></a>
+            <form class="header__form" action="#" method="get" enctype="multipart/form-data">
+                <h1 class="header__heading header__heading_font">Регистрация</h1>
+                <div class="header__input-container flex">
+                    <img src="images/registration/icon-1.svg" alt="icon">
+                    <input class="header__input header__input_font" type="text" name="username" value="" required placeholder="Ваше ФИО" tabindex="1">
+                </div>
+                <div class="header__input-container flex">
+                    <img src="images/registration/icon-2.svg" alt="icon">
+                    <input class="header__input header__input_font" type="email" name="usermail" value="" required placeholder="E-mail" tabindex="2">
+                </div>
+                <div class="header__input-container flex">
+                    <img src="images/registration/icon-3.svg" alt="icon">
+                    <input class="header__input header__input_font" type="password" name="userpassword" value="" required placeholder="Пароль" tabindex="3">
+                </div>
+                <div class="header__input-container flex">
+                    <img src="images/registration/icon-3.svg" alt="icon">
+                    <input class="header__input header__input_font" type="password" name="repeatpassword" value="" required placeholder="Повторите пароль" tabindex="4">
+                </div>
+                <p class="header__input-checkbox header__input-checkbox_font flex"><input class="header__input-checkbox_margin-right" type="checkbox" name="checkmark" value="yes" required tabindex="5">Соглашаюсь с условиями передачи данных</p>
+                <button class="header__button header__button_font" type="submit" tabindex="6">Зарегистрироваться</button>
+            </form>
+        </div>
+    </header>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/loading.js"></script>
+</body>
+</html>

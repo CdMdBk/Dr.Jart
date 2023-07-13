@@ -1,0 +1,212 @@
+.register {
+    height: auto;
+}
+
+.register_bg {
+    background-image: url(../../images/landing\ page/section-register/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.register__container {
+    background-color: rgba(255, 255, 255, 0.7);
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    padding: 40px 0;
+    height: 400px;
+}
+
+.register_heading {
+    font-family: 'Rubik-Medium', sans-serif;
+    text-align: center;
+    letter-spacing: 0.13em;
+}
+
+.register__form {
+    width: 60%;
+    justify-content: space-between;
+}
+
+.register__form-input {
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--forms-color);
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 48%;
+}
+
+.register__form-image {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.register__input {
+    height: 30px;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.register__button-block {
+    width: 60%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register__left-button {
+    width: 40%;
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.register__left-button_font {
+    color: #fff;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    transition: var(--time);
+}
+.register__left-button_font:hover {
+    color: var(--forms-color);
+    transition: var(--time);
+}
+
+.register_font-small {
+    font-family: 'Montserrat-Regular', sans-serif;
+    color: var(--text-color);
+}
+
+.register__right-button {
+    height: 100%;
+    border: 2px solid var(--accent-color);
+    border-radius: 10px;
+    background-color: transparent;
+    width: 40%;
+    cursor: pointer;
+    transition: var(--time);
+}
+.register__right-button:hover {
+    background-color: var(--accent-color);
+    transition: var(--time);
+}
+
+.register__right-button_font {
+    font-family: 'Montserrat-Regular', sans-serif;
+    color: var(--text-color);
+    transition: var(--time);
+}
+.register__right-button:hover .register__right-button_font {
+    color: #fff;
+    transition: var(--time);
+}
+
+.register__block-agree {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.register__block-agree_font {
+    font-family: 'Montserrat-Regular', sans-serif;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.register__block-agree_margin {
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+
+    .register__form {
+        width: 70%;
+    }
+
+}
+
+@media (max-width: 992px) {
+
+    .register__form {
+        width: 80%;
+    }
+
+    .register__button-block {
+        width: 80%;
+        height: 60px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .register__left-button {
+        width: 30%;
+        background-color: var(--accent-color);
+        border: none;
+        border-radius: 10px;
+        height: 100%;
+    }
+
+    .register__right-button {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .register__container {
+        height: 500px;
+    }
+
+    .register__form {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .register_heading {
+        margin-bottom: 20px;
+        
+    }
+
+    .register__form-input {
+        width: 110%;
+    }
+
+    .register__form-input:first-child {
+        margin-bottom: 10px;
+    }
+
+    .register__button-block {
+        width: 100%;
+        height: 130px;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .register__left-button {
+        width: 90%;
+        background-color: var(--accent-color);
+        border: none;
+        border-radius: 10px;
+        height: 60px;
+    }
+
+    .register__right-button {
+        width: 90%;
+        height: 60px;
+    }
+
+    .register_font-small {
+        display: none;
+    }
+
+}

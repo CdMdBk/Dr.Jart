@@ -1,0 +1,89 @@
+/*Pangolin*/
+
+@font-face {
+    font-family: 'Pangolin';
+    src: 
+        url(../fonts/Pangolin/Pangolin-Regular.eot) format('eot'),
+        url(../fonts/Pangolin/Pangolin-Regular.ttf) format('truetype'),
+        url(../fonts/Pangolin/Pangolin-Regular.woff) format('woff'),
+        url(../fonts/Pangolin/Pangolin-Regular.woff2) format('woff2')
+    ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Montserrat*/
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: 
+        url(../fonts/Montserrat-Light/Montserrat-Light.eot) format('eot'),
+        url(../fonts/Montserrat-Light/Montserrat-Light.ttf) format('truetype'),
+        url(../fonts/Montserrat-Light/Montserrat-Light.woff) format('woff'),
+        url(../fonts/Montserrat-Light/Montserrat-Light.woff2) format('woff2')
+    ;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: 
+        url(../fonts/Montserrat-Regular/Montserrat-Regular.eot) format('eot'),
+        url(../fonts/Montserrat-Regular/Montserrat-Regular.ttf) format('truetype'),
+        url(../fonts/Montserrat-Regular/Montserrat-Regular.woff) format('woff'),
+        url(../fonts/Montserrat-Regular/Montserrat-Regular.woff2) format('woff2')
+    ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: 
+        url(../fonts/Montserrat-SemiBold/Montserrat-SemiBold.eot) format('eot'),
+        url(../fonts/Montserrat-SemiBold/Montserrat-SemiBold.ttf) format('truetype'),
+        url(../fonts/Montserrat-SemiBold/Montserrat-SemiBold.woff) format('woff'),
+        url(../fonts/Montserrat-SemiBold/Montserrat-SemiBold.woff2) format('woff2')
+    ;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/*Rubik*/
+
+@font-face {
+    font-family: 'Rubik-Regular';
+    src: 
+        url(../fonts/Rubik-Regular/Rubik-Regular.eot) format('eot'),
+        url(../fonts/Rubik-Regular/Rubik-Regular.ttf) format('truetype'),
+        url(../fonts/Rubik-Regular/Rubik-Regular.woff) format('woff'),
+        url(../fonts/Rubik-Regular/Rubik-Regular.woff2) format('woff2')
+    ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik-Medium';
+    src: 
+        url(../fonts/Rubik-Medium/Rubik-Medium.eot) format('eot'),
+        url(../fonts/Rubik-Medium/Rubik-Medium.ttf) format('truetype'),
+        url(../fonts/Rubik-Medium/Rubik-Medium.woff) format('woff'),
+        url(../fonts/Rubik-Medium/Rubik-Medium.woff2) format('woff2')
+    ;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik-Bold';
+    src: 
+        url(../fonts/Rubik-Bold/Rubik-Bold.eot) format('eot'),
+        url(../fonts/Rubik-Bold/Rubik-Bold.ttf) format('truetype'),
+        url(../fonts/Rubik-Bold/Rubik-Bold.woff) format('woff'),
+        url(../fonts/Rubik-Bold/Rubik-Bold.woff2) format('woff2')
+    ;
+    font-weight: bold;
+    font-style: normal;
+}
